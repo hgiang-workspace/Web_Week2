@@ -1,0 +1,84 @@
+/* The styles for the elements */
+body {
+  display: flex;
+  justify-content: center;   
+  align-items: center; 
+  background-color: teal;     
+}
+form{
+	height: 700px;
+	width: 500px;  
+	border: solid 3px teal;
+	padding: 50px 10px 50px 50px;
+	border-radius: 10px;
+	background-color: #e9faf3;
+}
+h1 {     
+    font-size: 50px;
+    color: #cd0b0b;
+    margin: 0 0 10px 10px;
+    text-align:center;   
+}
+h2 {     
+    font-size: 130%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    padding-top: .3em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"],input[type="date"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* The styles for a table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;   
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+img {
+	height: 40px;
+	border-radius: 20px;
+	display:inline;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	background-color: #cd0b0b;
+	color: white; 
+	padding: 12px 24px; 
+	font-size: 20px; 
+	border: none; 
+	border-radius: 6px;
+	margin-left: 180px;
+	margin-top: 10px;
+}
